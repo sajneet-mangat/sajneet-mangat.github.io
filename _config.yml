@@ -1,1 +1,27 @@
+# Site settings
+title: Sajneet Mangat
+description: >- # This allows a multi-line description
+I am a dual-degree law student in Montreal, Canada who loves thinking deeply and creatively about the law. I am interested in dispute resolution, international trade, first-instance and appellate litigation, and technology. My other interests are basketball, debate, coffee, bicycles, and oatmeal. en/fr
+baseurl: "" # leave empty for your main domain
+url: "https://sajneetmangat.com"
 
+# Build settings
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Minima Theme Settings
+minima:
+  skin: classic # options: classic, dark, solarized
+  social_links:
+    - { platform: github, user: your-github-username }
+    - { platform: linkedin, user: your-linkedin-profile }
+
+# Exclude these from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
